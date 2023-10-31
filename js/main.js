@@ -72,18 +72,18 @@ $(document).ready(function(){
             } 
             else {
                 if (listNome.includes(novoNome)) {
-                    alert("Este nome já cadastrado cadastrado!");
+                    alert(`O nome ${novoNome} já está cadastrado` );
                 }
                 else if(listaCpf.includes(novoCpf)){
-                    alert("Este CPF já está cadastrado!")
+                    alert(`O cpf ${novoCpf} já está cadastrado`)
 
                 }
                 else if(listaEmail.includes(novoEmail)){
-                    alert("Este e-mail já está cadastrado!")
+                    alert(`O e-mail ${novoEmail} já está cadastrado`)
 
                 }
                 else if(listaTelefone.includes(novoTel)){
-                    alert("Este telefone já está cadastrado!")
+                    alert(`O telefone ${novoTelefone} já está cadastrado`)
                 }
                 else {
                     listNome.push(novoNome);
